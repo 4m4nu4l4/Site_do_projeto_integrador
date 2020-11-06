@@ -24,19 +24,20 @@
     </button>
     <div class="collapse navbar-collapse" id="textoNavbar">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="sobre_nos.html">Sobre Nós <span class="sr-only">(Página atual)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Página Inicial</a>
+          <a class="nav-link" href="index.html">Página Inicial</a>  
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="sobre_nos.html">Sobre Nós</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="info.html">Informações</a>
         </li>
+        <li class="nav-item">
         <a class="nav-link" href="dicas_novo.html">Dicas</a>
         </li>
+        <li class="nav-item">
         <a class="nav-link" href="teste_novo.html">Teste </a>
-
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -47,120 +48,36 @@
     </div>
   </nav>
 
-
-  <!-- fazer formulario de cadastro-->
-  <h1>Cadastro:</h1>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Ação</a>
-            <a class="dropdown-item" href="#">Outra ação</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Algo mais aqui</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Desativado</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-      </form>
-    </div>
-  </nav>
-  <title>sobre nós</title>
-
-      </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button type="button" class="btn btn-dark">Pesquisar</button>
-        </form>
-        
-      </div>
-    </nav>
-    
-
-    <!-- fazer formulario de cadastro-->
-    <h1>Cadastro:</h1>
+<div class="container">
+  <div class="row">
+   <!-- fazer formulario de cadastro-->
+    <i> <h1>Cadastro:</h1></i>
    
-    <title>sobre nós</title>
-
-  </head>
-
-  <body>
+    </div>  
+  </div>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img class="..." src="..." height="300px" width="300px"> <br>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 col-md-6"></div>
-        </div>
-
-        <div class="col-sm-12 col-md-6"></div>
-
-      </div>
-
-    </div>
-    </div>
-
-    <form>
+  <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <form>
-            <input type="text" placeholder="E-mail" name="e-mail"><br>
-            <input type="password" placeholder="Senha"><br>
-            <input type="text" placeholder="Nome" name="nome"><br>
-            <input type="text" placeholder="Sobrenome" name="sobrenome"><br>
-            <input type="text" placeholder="Onde estuda" name="onde estuda"><br>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+            </div>
 
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <input type="date" placeholder="Data de Nascimento" name="data de nascimento"><br>
-          <label for="opções">Acabou o ensino médio?</label>
-          <select id="opções" name="opções">
-            <option value="sim">Sim</option>
-            <option value="não">Não</option>
-          </select>
-          <br>
-          <label for="opções">Começou a faculdade?</label>
-          <select id="opções" name="opções">
-            <option value="sim">Sim</option>
-            <option value="não">Não</option>
-          </select>
-          <br>
-          <label for="opções">Sabe o que fazer?</label>
-          <select id="opções" name="opções">
-            <option value="sim">Sim</option>
-            <option value="não">Não</option>
-            <option value="talvez">Talvez</option>
-          </select>
-          <br>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Apagar">
+          <div class="col-sm-12 col-md-12">
+            <button type="button" class="btn btn-success">Enviar</button>
+            <button type="button" class="btn btn-danger">Cancelar</button>
         </div>
       </div>
       </div>
@@ -217,33 +134,5 @@
 </html>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-    aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-      </li>
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Ação</a>
-        <a class="dropdown-item" href="#">Outra ação</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Algo mais aqui</a>
-      </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Desativado</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-    </form>
-  </div>
-</nav>
+  

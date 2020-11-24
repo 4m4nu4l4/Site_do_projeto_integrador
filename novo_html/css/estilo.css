@@ -1,11 +1,10 @@
 .footer {
-    color: #292424;
-    background-color: rgb(87, 116, 245);
-    line-height: 40px;
+    color: #6361f0;
+    line-height: 35px;
     padding-top: 22.5px;
     padding-bottom: 22.5px;
     width: 100%;
-    height: 55px;
+    height: 150px;
     text-align: center;
     display: inline-block;
      position: fixed;

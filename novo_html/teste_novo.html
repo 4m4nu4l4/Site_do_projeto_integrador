@@ -157,7 +157,7 @@
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo4" type="radio" id="grupox45" value="D">
+      <input class="form-check-input" name="grupo4" type="radio" id="grupox44" value="D">
       <label class="form-check-label" for="inlineradio">d) Uma empresa tradicional, com protudos ou serviços
         conservadores e de fácil comercialização;</label>
     </div>
@@ -343,27 +343,27 @@
     <b>11) Procuro fazer amigos que:</b>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo11" type="radio" id="grupox1111" value="A">
+      <input class="form-check-input" name="grupo11" type="radio" id="grupox111" value="A">
       <label class="form-check-label" for="inlineradio">a) Possuem status e são influentes;</label>
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo11" type="radio" id="grupox1122" value="B">
+      <input class="form-check-input" name="grupo11" type="radio" id="grupox112" value="B">
       <label class="form-check-label" for="inlineradio">b) Possuem os mesmos interesses que eu;</label>
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo11" type="radio" id="grupox1133" value="C">
+      <input class="form-check-input" name="grupo11" type="radio" id="grupox113" value="C">
       <label class="form-check-label" for="inlineradio">c) Compartilham das mesmas ideias;</label>
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo11" type="radio" id="grupox1144" value="D">
+      <input class="form-check-input" name="grupo11" type="radio" id="grupox114" value="D">
       <label class="form-check-label" for="inlineradio">d) São bastante diferentes de mim;</label>
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo11" type="radio" id="grupox1155" value="E">
+      <input class="form-check-input" name="grupo11" type="radio" id="grupox115" value="E">
       <label class="form-check-label" for="inlineCheckbox3">e) Não me preocupo com características quando procuro uma
         amizade.</label>
     </div>
@@ -423,7 +423,7 @@
     </div>
     <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" name="grupo13" type="radio" id="grupox134" value="E">
+      <input class="form-check-input" name="grupo13" type="radio" id="grupox135" value="E">
       <label class="form-check-label" for="inlineradio">e) Aposentaria e viveria viajando.</label>
     </div>
     <br>
@@ -541,11 +541,12 @@
     </div>
     <br>
     <br>
-
     <div class="container">
-      <button onclick="respostas()">Click me</button>
+        <button type="button" class="btn btn-outline-blue" onclick="respostas()">Resultado</button>
     </div>
-
+<br>
+<br>
+<br>
 <!--
     <div class="container">
       <div class="row">
@@ -687,11 +688,11 @@
           respostaA++;
         if (document.getElementById('grupox42').checked)
           respostaB++;
-        if (document.getElementById('grupox33').checked)
+        if (document.getElementById('grupox43').checked)
         respostaC++;
         if (document.getElementById('grupox44').checked)
         respostaD++;
-        if (document.getElementById('grupox55').checked)
+        if (document.getElementById('grupox45').checked)
         respostaE++;
 
          //resposta grupo 5
@@ -864,9 +865,9 @@
           document.write (" B: Você valoriza a ascensão social. Profissões relacionadas: Medicina, Direito, Artes Cênicas, Arquitetura, Cinema, Editoração, Engenharia Aeronáutica, Jornalismo, Odontologia, Biomedicina, Farmácia, Artes Plásticas, Artes Visuais, Gastronomia, Relações Internacionais e Relações Públicas.")
         }
         if (respostaC > respostaA && respostaC > respostaB && respostaC > respostaD && respostaC > respostaE){
-          document.write (" C: Você valoriza a segurança. Profissões relacionadas: Medicina, Odontologia, Engenharia Civil, Engenharia da Computação, Letras, Nutrição, Pedagogia, Psicologia, Veterinária, Biomedicina, História, Pedagogia, Ciência da Computação, Engenharia de Controle e Automação, Engenharia Nuclear e Engenharia de Materiais.")
+        document.write (" C: Você valoriza a segurança. Profissões relacionadas: Medicina, Odontologia, Engenharia Civil, Engenharia da Computação, Letras, Nutrição, Pedagogia, Psicologia, Veterinária, Biomedicina, História, Pedagogia, Ciência da Computação, Engenharia de Controle e Automação, Engenharia Nuclear e Engenharia de Materiais.")
         }
-        if (respostaD > respostaA && respostaD > respostaB && respostaD > respostaC && respostaD > respostaE);{
+        if (respostaD > respostaA && respostaD > respostaB && respostaD > respostaC && respostaD > respostaE){
           document.write (" D: Você valoriza a qualidade de vida. Profissões relacionadas: Administração, Ciências Contábeis, Análise de Sistemas, Economia, Engenharia da Computação, Farmácia, Física, Comércio Exterior, Engenharia Mecânica, Engenharia Eletrônica, Engenharia Elétrica, Engenharia de Produção, Engenharia de Agrimensura e Biblioteconomia.")
         }
         if (respostaE > respostaA && respostaE > respostaB && respostaE > respostaC && respostaE > respostaD){

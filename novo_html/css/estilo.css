@@ -1,5 +1,6 @@
 body {
     background-image: url("teste_fundo.png")
+   /*background-color: #7c7c7c*/
 
 }
 .footer {
@@ -16,7 +17,7 @@ body {
 
 }
 .footer-link {
-    color: #000000;
+    color: #ffffff;
 }
 
 

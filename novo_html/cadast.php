@@ -1,3 +1,7 @@
+<?php
+ -S localhost:8000
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

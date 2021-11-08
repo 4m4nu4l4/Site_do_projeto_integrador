@@ -14,6 +14,8 @@
 <title>Teste</title>
 
 <body>
+  
+ -S localhost:8000
   <nav class="navbar navbar-expand-lg navbar-light bg-info" style="background-color:#5d7ead !important">
     <img src="imagens/foto sem fundo.png" width="150" height="100" alt="">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"

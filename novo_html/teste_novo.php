@@ -543,9 +543,7 @@
     </div>
     <br>
     <br>
-    <div class="container">
-        <button type="button" class="btn btn-outline-blue" onclick="respostas()">Resultado</button>
-    </div>
+    <button type="button" class="btn btn-outline-blue" onclick="respostas()">Resultado</button>
 <br>
 <br>
 <br>

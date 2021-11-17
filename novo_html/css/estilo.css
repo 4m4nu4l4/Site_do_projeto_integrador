@@ -1,6 +1,13 @@
 body {
-    background-image: url("teste_fundo.png")
+    background-image: url("fundo_novoo.jpg")
    /*background-color: #7c7c7c*/
+
+}
+.fundo{
+    background-color: #ffffff;
+    /*width: 85%;*/
+    margin-left: 5%;
+    background-position: 150px;
 
 }
 .footer {

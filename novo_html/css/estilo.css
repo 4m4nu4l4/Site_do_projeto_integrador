@@ -27,13 +27,15 @@ body {
 }
 
 .card-deck{
-    padding: 15px;
+
     margin-bottom: 0px;
     padding-top: 0px;
     background: #ffffff;
 }
+
 .humanas{
     padding: 15px;
+    margin-top: 15px;
     margin-bottom: 0px;
     padding-top: px;
     margin-left: -15px;
@@ -43,6 +45,7 @@ body {
 .biologicas{
     padding: 15px;
     margin-bottom: -40px;
+    margin-top: 18px;
     padding-bottom: px;
     margin-left: -15px;
     margin-right: -15px;
@@ -50,7 +53,8 @@ body {
 }
 .exatas{
     padding: 15px;
-    margin-bottom: 0px;
+    margin-bottom: px;
+    margin-top: 18px;
     padding-top: px;
     margin-left: -15px;
     margin-right: -15px;

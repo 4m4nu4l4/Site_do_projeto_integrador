@@ -28,7 +28,7 @@ body {
 
 .card-deck{
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-top: 0px;
     background: #ffffff;
 }
@@ -42,8 +42,8 @@ body {
 }
 .biologicas{
     padding: 15px;
-    margin-bottom: 0px;
-    padding-top: -29px;
+    margin-bottom: -40px;
+    padding-bottom: px;
     margin-left: -15px;
     margin-right: -15px;
     background: #ffffff;

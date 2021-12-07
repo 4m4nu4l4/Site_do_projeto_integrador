@@ -37,7 +37,7 @@
           <a class="nav-link" href="dicas_novo.html">Dicas</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="teste_novo.html">Teste</a>
+          <a class="nav-link" href="teste_novo.php">Teste</a>
         </li>
       </ul>
       <a href="cadast.html" class="btn btn-light">Cadastre-se</a>
